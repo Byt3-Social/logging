@@ -1,0 +1,3 @@
+ALTER TABLE logs MODIFY COLUMN status_code VARCHAR(255);
+
+ALTER TABLE logs DROP COLUMN user;

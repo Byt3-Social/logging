@@ -1,0 +1,1 @@
+ALTER TABLE logs ADD COLUMN action_description TEXT NOT NULL;
